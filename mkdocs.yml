@@ -1,8 +1,8 @@
 site_name: Scholaro Developer Docs
 site_description: Developer documentation for Scholaro GPA report integrations
 site_url: https://docs.scholaro.com
-repo_url: https://github.com/your-org/scholaro-docs
-repo_name: your-org/scholaro-docs
+repo_url: https://github.com/alex-scholaro/scholaro-dev-docs
+repo_name: Scholaro Docs
 edit_uri: edit/main/docs/
 
 theme:
