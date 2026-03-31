@@ -28,11 +28,3 @@
     Covers supported events, payload structure, signature verification, and implementation best practices.
 
 </div>
-
-## Suggested publishing flow
-
-1. Update `site_url`, `repo_url`, and branding in `mkdocs.yml`.
-2. Replace placeholder code samples and example values with your final production values.
-3. Add your third converted article and place it in the navigation.
-4. Push to GitHub and connect the repo to your docs domain.
-
