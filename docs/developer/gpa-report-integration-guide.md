@@ -236,27 +236,27 @@ Item status values:
 
 ### Upload steps
 
-1. Upload transcript files first.
-2. Upload `manifest.csv` last.
-3. Uploading the manifest triggers processing.
+Upload a single ZIP file containing `manifest.csv` and all referenced transcript files. Uploading the ZIP triggers processing.
+
+Requirements:
+
+- Must include `manifest.csv` at the root of the archive
+- Must include every transcript file referenced in the manifest
+- Transcript files must be PDF, JPG, JPEG, or PNG
+- Manifest format matches the [Bulk API manifest](#manifestcsv-format)
 
 ### Example session
 
 ```bash
 sftp scholaronorthussftp.myuser@scholaronorthussftp.blob.core.windows.net
-put brazil-transcript.pdf
-put india-transcript.pdf
-put manifest.csv
+put bulk-upload.zip
 ```
 
-!!! warning
-    Upload transcripts before the manifest.
-
-!!! warning
-    Uploading the manifest triggers processing.
-
-!!! warning
-    Do not upload multiple manifests simultaneously.
+!!! note
+    The ZIP must contain `manifest.csv`. If any file referenced in the manifest is missing from the archive, the upload is rejected and no batch is created.
 
 !!! note
-    Subscription limits apply.
+    Uploading the ZIP triggers processing. Subscription limits apply — if the batch would exceed the report limit, no batch is created.
+
+!!! warning
+    Do not upload multiple ZIPs for the same organization concurrently. Only one active batch per org is processed at a time.
