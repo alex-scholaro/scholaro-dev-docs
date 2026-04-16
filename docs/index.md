@@ -1,8 +1,8 @@
-# Scholaro Developer Docs
+# Scholaro Developer Documentation
 
 <div class="hero-card">
-  <p><strong>Build Scholaro integrations faster.</strong> This docs portal is structured for institutional developers who need GPA report API guidance, webhook event documentation, and integration setup instructions for connected systems.</p>
-  <p><a href="developer/getting-started/">Start with Getting Started</a>, review the <a href="developer/webhooks/">webhooks docs</a>, or open the <a href="developer/integrations/slate-integration-setup/">Slate Integration Setup</a>.</p>
+  <p><strong>Build Scholaro integrations faster.</strong> This portal is structured for institutional developers who need GPA report API guidance, webhook event documentation, and integration setup instructions for connected systems.</p>
+  <p><a href="developer/getting-started/">Start with Getting Started</a>, review the <a href="developer/webhooks/">webhooks documentation</a>, or open the <a href="developer/integrations/slate-integration-setup/">Slate Integration Setup</a>.</p>
 </div>
 
 ## What is included
