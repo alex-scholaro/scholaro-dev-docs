@@ -1,6 +1,6 @@
 # Other Identity Providers
 
-Scholaro works with any identity provider that supports **OpenID Connect (OIDC)** or **SAML 2.0** — including Okta, OneLogin, Ping, ADFS, Shibboleth, and others.
+Scholaro works with any identity provider that supports **OpenID Connect (OIDC)** or **SAML 2.0** — including OneLogin, Ping, ADFS, Shibboleth, and others.
 
 Before you start, read the [SSO overview](../sso.md) for how the managed setup process works. Use the tab below that matches the protocol your identity provider uses.
 
