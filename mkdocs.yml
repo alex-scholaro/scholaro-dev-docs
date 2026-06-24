@@ -51,6 +51,12 @@ nav:
           - TargetX / Salesforce File Delivery: developer/webhooks/targetx-salesforce-file-delivery.md
       - Integrations:
           - Slate Integration Setup: developer/integrations/slate-integration-setup.md
+      - Single Sign-On (SSO):
+          - Overview: developer/sso.md
+          - Microsoft Entra ID: developer/sso/entra-id-setup.md
+          - Google Workspace: developer/sso/google-workspace-setup.md
+          - Okta: developer/sso/okta-setup.md
+          - Other Providers: developer/sso/other-idp-setup.md
 
 markdown_extensions:
   - admonition

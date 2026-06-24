@@ -33,4 +33,10 @@
 
     Implementation guides for connected systems such as Slate, with setup steps and configuration flow documentation.
 
+-   **Single Sign-On (SSO)**
+
+    ---
+
+    Connect your identity provider — Microsoft Entra ID, Google Workspace, Okta, or any OIDC / SAML 2.0 provider — so your users sign in to Scholaro with their existing work credentials.
+
 </div>
